@@ -96,7 +96,7 @@ nav{
     text-align: center;
     color: white;
     border: 1px solid gray;
-    z-index: 1;
+    z-index: 1; 
 }
 .buyButton{
     position: absolute;
@@ -162,6 +162,78 @@ nav{
     background-color: whitesmoke;
     position: relative;
 }
+
+.payment{
+    width: 500px;
+    height: 520px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px 50px;
+    display: none;
+    flex-direction: column;
+    /* font-weight: 600;  */
+    box-shadow: 10px 12px 41px 27px rgba(0,0,0,0.1);
+}
+.payTitle{
+    font-size: 20px;
+    color: gray;
+    font-weight: 900;
+}
+label{
+    font-size: 18px;
+    font-weight: 900;
+}
+.payInput{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.cardIcons{
+    display: flex;
+}
+.cardIcon{
+    margin-right: 10px;
+}
+.cardInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.sm{
+    width: 30%;
+}
+.payButton{
+    position: absolute;
+    height: 40px;
+    bottom: -40px;
+    width: 100%;
+    left: 0;
+    background-color:green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 .productImg{
     width: 50%;
 }
